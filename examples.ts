@@ -12,3 +12,9 @@ function saludar(name: string) {
   name.length
   return `Hello ${name}`
 }
+
+function greet (name: string): string {
+  return `Hello, ${name}`
+}
+
+console.log(greet('Andrey'))
